@@ -1,0 +1,4 @@
+{
+	"presets": ["@babel/preset-env"], //vai entender qual ambiente sendo trabalhado, neste caso, web
+	"plugins": ["@babel/plugin-proposal-object-rest-spread"]
+}
