@@ -1,5 +1,5 @@
 module.exports = {
-	entry: './src/main.js', //qual é o arquivo principal
+	entry: ['@babel/polyfill', './src/main.js'], //qual é o arquivo principal
 	output: { //pra qual arquivo e lugar deve enviar o cod convertido
 		path: __dirname + '/public',
 		filename: 'bundle.js',

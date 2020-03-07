@@ -1,4 +1,9 @@
 {
-	"presets": ["@babel/preset-env"], //vai entender qual ambiente sendo trabalhado, neste caso, web
-	"plugins": ["@babel/plugin-proposal-object-rest-spread"]
+	"presets": [ //vai entender qual ambiente sendo trabalhado, neste caso, web
+		"@babel/preset-env"]
+		, 
+	"plugins": [
+		"@babel/plugin-proposal-object-rest-spread", 
+		"@babel/plugin-transform-async-to-generator"
+	]
 }
